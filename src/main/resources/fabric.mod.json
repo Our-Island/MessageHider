@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "messagehider",
+  "version": "${version}",
+  "name": "MessageHider",
+  "description": "Server-side Fabric mod that silently hides all public player chat messages from every client without blocking the send action.",
+  "authors": [
+    "Our-Island",
+    "Chiloven945"
+  ],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "top.ourisland.messagehider.MessageHider"
+    ]
+  },
+  "mixins": [
+    "messagehider.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.19.2",
+    "minecraft": "~26.1.2",
+    "java": ">=25",
+    "fabric-api": ">=0.146.1"
+  }
+}
