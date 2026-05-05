@@ -1,4 +1,7 @@
-# MessageHider
+# [MIGRATED] MessageHider
+
+> [!WARNING]
+> This mod had been migrated to [diakoUtils](https://github.com/Our-Island/diakoUtils).
 
 A **Fabric 26.1.2 server-side mod**.
 
